@@ -7,7 +7,6 @@
 
     Private Sub btnRetrieveSeries_Click(sender As Object, e As EventArgs) Handles btnRetrieveSeries.Click
         ' Retrieve all of the contracts that match this underlying
-
         ' Clear out the Data grid
         dgOptionsSeries.Rows.Clear()
         dgOptionsSeries.Refresh()
